@@ -9,3 +9,7 @@
   font-family: 'PT Mono', monospace;
   scroll-behavior: smooth;
 }
+
+body {
+  background-image: url('../public/header/stars.png');
+}
