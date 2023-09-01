@@ -10,6 +10,43 @@
   scroll-behavior: smooth;
 }
 
+.von {
+  background: url('../public/header/stars.png') no-repeat;
+  background-position: 100%;
+}
+
 body {
-  background-image: url('../public/header/stars.png');
+  background: #10151A;
+}
+
+.dao-underline-1::after {
+  content: "";
+  position: absolute;
+  background-image: url('../public/header/underline_1.svg');
+  width: 223px;
+  height: 34px;
+  bottom: 0px;
+  left: -10px;
+  z-index: -1;
+}
+
+.dao-underline-1 {
+  position: relative;
+  z-index: 2;
+}
+
+.pre-table-underline-2::after {
+  content: "";
+  position: absolute;
+  background-image: url('../public/preheader/underline_2.svg');
+  width: 645px;
+  height: 25px;
+  right: 16px;
+  z-index: -1;
+  bottom: -2px; 
+}
+
+.pre-table-underline-2 {
+  position: relative;
+  z-index: 1;
 }
