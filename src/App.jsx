@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./assets/layers/Header";
 import PreTable from "./assets/layers/PreTable";
+import Table from "./assets/layers/Table";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <div className="">
         <Header />
         <PreTable />
+        <Table />
       </div>
     </div>
   );
