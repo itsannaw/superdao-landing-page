@@ -89,25 +89,25 @@ const Table = () => {
           <TitleTable>Blockchains</TitleTable>
           <div className="flex justify-between pt-[28px] gap-[24px]">
             <IconTableBlockchains>
-              <img src="public/table/Ethereum (ETH).svg" alt="icon-1" />
+              <img src="table/Ethereum (ETH).svg" alt="icon-1" />
               <span className="text-white text-[18px] font-bold leading-[32px]">
                 Etherium
               </span>
             </IconTableBlockchains>
             <IconTableBlockchains>
-              <img src="public/table/Icon_binance.svg" alt="icon-1" />
+              <img src="table/Icon_binance.svg" alt="icon-1" />
               <span className="text-white text-[18px] font-bold leading-[32px]">
                 Binance
               </span>
             </IconTableBlockchains>
             <IconTableBlockchains>
-              <img src="public/table/Icon_solana.svg" alt="icon-1" />
+              <img src="table/Icon_solana.svg" alt="icon-1" />
               <span className="text-white text-[18px] font-bold leading-[32px]">
                 Solana
               </span>
             </IconTableBlockchains>
             <IconTableBlockchains>
-              <img src="public/table/Icon_avalanche.svg" alt="icon-1" />
+              <img src="table/Icon_avalanche.svg" alt="icon-1" />
               <span className="text-white text-[18px] font-bold leading-[32px]">
                 Avalanche
               </span>
