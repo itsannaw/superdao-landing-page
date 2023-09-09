@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./assets/layers/Header";
 import PreTable from "./assets/layers/PreTable";
+import { RoadmapClub } from "./assets/layers/RoadmapClub";
 import Table from "./assets/layers/Table";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <Header />
         <PreTable />
         <Table />
+        <RoadmapClub />
       </div>
     </div>
   );

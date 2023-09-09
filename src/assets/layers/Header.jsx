@@ -18,8 +18,11 @@ const Header = () => {
           <HeaderLink>Jobs</HeaderLink>
         </div>
 
-        <button className="ml-[74px] hover:scale-105 ease-linear duration-300">
-          <img src="header/button.svg" alt="button" />
+        <button className="flex justify-center align-center gap-[8px] ml-[74px] rounded-lg bg-[#262E37] py-[6px] pl-[12px] pr-[16px] max-w-[128px] mx-auto w-full hover:scale-105 ease-linear duration-300">
+          <img src="header/icons8-twitter 1.svg" alt="twitter" />
+          <span className="text-white text-[16px] font-bold leading-7 opacity-90">
+            Twitter
+          </span>
         </button>
       </div>
 
@@ -32,7 +35,9 @@ const Header = () => {
           Superdao makes it easier to start and operate <br /> decentralized
           autonomous organizations
         </span>
-        <Button type={BUTTON_TYPES.PRIMARY}>Get started</Button>
+        <div className="mb-[100px]  mt-[80px] ">
+          <Button type={BUTTON_TYPES.PRIMARY}>Get started</Button>
+        </div>
       </div>
     </section>
   );

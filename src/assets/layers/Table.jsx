@@ -113,6 +113,33 @@ const Table = () => {
               </span>
             </IconTableBlockchains>
           </div>
+
+          <div className="flex justify-center pt-[24px] gap-[24px]">
+            <IconTableBlockchains>
+              <img src="table/Icon_terra.svg" alt="icon-1" />
+              <span className="text-white text-[18px] font-bold leading-[32px]">
+                Terra
+              </span>
+            </IconTableBlockchains>
+            <IconTableBlockchains>
+              <img src="table/Icon_near.svg" alt="icon-1" />
+              <span className="text-white text-[18px] font-bold leading-[32px]">
+                NEAR
+              </span>
+            </IconTableBlockchains>
+            <IconTableBlockchains>
+              <img src="table/Icon_polygon.svg" alt="icon-1" />
+              <span className="text-white text-[18px] font-bold leading-[32px]">
+                Polygon
+              </span>
+            </IconTableBlockchains>
+            <IconTableBlockchains>
+              <img src="table/Icon_more.svg" alt="icon-1" />
+              <span className="text-white text-[18px] font-bold leading-[32px]">
+                + more
+              </span>
+            </IconTableBlockchains>
+          </div>
         </div>
       </div>
     </section>
