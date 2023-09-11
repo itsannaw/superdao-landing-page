@@ -50,3 +50,19 @@ body {
   position: relative;
   z-index: 1;
 }
+
+.pre-table-underline-3::after {
+  content: "";
+  position: absolute;
+  background-image: url('../public/learnmore/Underline_3.svg');
+  width: 345px;
+  height: 25px;
+  right: -25px;
+  z-index: -1;
+  bottom: 15px; 
+}
+
+.pre-table-underline-2 {
+  position: relative;
+  z-index: 1;
+}
