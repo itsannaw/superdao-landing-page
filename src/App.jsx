@@ -1,5 +1,6 @@
 import "./App.css";
 import BackedBy from "./assets/layers/BackedBy";
+import Footer from "./assets/layers/Footer";
 import Header from "./assets/layers/Header";
 import LearnMore from "./assets/layers/LearnMore";
 import PreTable from "./assets/layers/PreTable";
@@ -16,6 +17,7 @@ function App() {
         <RoadmapClub />
         <LearnMore />
         <BackedBy />
+        <Footer />
       </div>
     </div>
   );
