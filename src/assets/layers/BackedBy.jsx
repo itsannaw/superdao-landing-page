@@ -2,12 +2,14 @@ const BackedBy = () => {
   return (
     <section>
       <div className="flex flex-col justify-center max-w-[1140px] w-full mx-auto align-center mt-[180px] ">
-        <span className="text-white text-center text-[48px] font-bold leading-[92px] drop-shadow-4xl pre-table-underline-4 ">
-          Backed by
-        </span>
+        <div className="flex justify-center align-center">
+          <span className="text-white text-center text-[48px] font-bold leading-[92px] drop-shadow-4xl pre-table-underline-4 ">
+            Backed by
+          </span>
+        </div>
       </div>
 
-      <div className="flex fustify-center max-w-[1140px] w-full mx-auto gap-[64px] mt-[45px]">
+      <div className="flex flex-wrap justify-center max-w-[1140px]  mx-auto gap-[60px] mt-[45px]">
         <img className="" src="backedby/Logo_fund_1.svg" alt="icon" />
         <img className="" src="backedby/Logo_fund_2.svg" alt="icon" />
         <img className="" src="backedby/Logo_fund_3.svg" alt="icon" />

@@ -73,7 +73,7 @@ body {
   background-image: url('../public/backedby/Underline_4.svg');
   width: 335px;
   height: 29px;
-  right: 385px;
+  right: -40px;
   z-index: -1;
   bottom: 15px; 
 }

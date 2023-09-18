@@ -5,12 +5,8 @@ import { BUTTON_TYPES } from "../../consts";
 const Header = () => {
   return (
     <section className="von">
-      <div className="flex items-center justify-around max-w-[1140px] w-full pt-[46px] mx-auto">
-        <img
-          className="items-start mr-[395px]"
-          src="header/logo.svg"
-          alt="logo"
-        />
+      <div className="flex items-center justify-between  max-w-[1140px] w-full mx-auto pt-[46px]">
+        <img className="items-start" src="header/logo.svg" alt="logo" />
 
         <div className="flex items-center justify-around max-w-[340px] w-full gap-[52px]">
           <HeaderLink>Roadmap club</HeaderLink>
@@ -18,7 +14,7 @@ const Header = () => {
           <HeaderLink>Jobs</HeaderLink>
         </div>
 
-        <button className="flex justify-center align-center gap-[8px] ml-[74px] rounded-lg bg-[#262E37] py-[6px] pl-[12px] pr-[16px] max-w-[128px] mx-auto w-full hover:scale-105 ease-linear duration-300">
+        <button className="flex justify-center align-center gap-[8px] rounded-lg bg-[#262E37] py-[6px] pl-[12px] pr-[16px] max-w-[128px] w-full hover:scale-105 ease-linear duration-300">
           <img src="header/icons8-twitter 1.svg" alt="twitter" />
           <span className="text-white text-[16px] font-bold leading-7 opacity-90">
             Twitter
